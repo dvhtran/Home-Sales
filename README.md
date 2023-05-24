@@ -1,9 +1,13 @@
 # Home-Sales
 
 Project Description
+
+
 In this project SparkSQL was used to determine key metrics about home sales data. Spark was used to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached. 
 
 Questions Answered
+
+
 A Spark DataFrame is created from the dataset. 
 
 A temporary table of the original DataFrame is created.
@@ -29,4 +33,6 @@ The query from step 6 is run on the parquet temporary table, and the run time is
 The "home_sales" temporary table is uncached and verified. 
 
 Data
+
+
 https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv
